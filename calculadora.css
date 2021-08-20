@@ -1,0 +1,124 @@
+body {
+    background: url(./IMG/imagen\ calculadora.jpg);    
+}
+
+.cajaPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.formulario {
+    border: 4px solid rgb(0, 0, 0);
+    width: 400px;
+    height: 500px;
+    background-color: rgb(145, 26, 192);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 0 10px #fff;
+}
+
+.resultado p{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(252, 249, 249);
+    border: 1px solid black;
+    position: relative;
+    bottom: 335px;
+    right: 348px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 25px;
+}
+
+.cajaPadre h1 {
+    position: relative;
+    bottom: 435px;
+    left: 310px;
+    font-family:fantasy;   
+    color: #fff;
+    text-shadow: 0 0 9px rgb(12, 224, 207);
+}
+
+.caja1 label {
+    position: relative;
+    bottom: 200px;
+    left: 247px;
+    font-family: fantasy;
+    color: rgb(252, 236, 197);
+    font-weight: bold;
+    text-shadow: 0 0 9px rgb(18, 238, 220)
+}
+
+.caja1 input {
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 230px;
+    bottom: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+.caja2 label {
+    position: relative;
+    bottom: 200px;
+    left: 367px;
+    font-family: fantasy;
+    color: rgb(252, 236, 197);
+    font-weight: bold;
+    text-shadow: 0 0 9px rgb(18, 238, 220)
+}
+
+.caja2 input {
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 350px;
+    bottom: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+.caja1 :placeholder-shown {
+    font-size: 10px;
+}
+
+.caja2 :placeholder-shown {
+    font-size: 10px;
+}
+
+.operadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.operadores button {
+    width: 85px;
+    height: 50px;
+    position: relative;
+    bottom: 90px;
+    right: 7px;
+    margin: 5px;
+    background-color: lightblue;
+    box-shadow: 0 0 3px rgb(5, 253, 232);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: fantasy;
+    border-radius: 20px;
+}
+
+.cajaPadre h2 {
+    position: relative;
+    right: 550px;
+    bottom: 560px;
+    color: rgb(223, 211, 211);
+    font-family: fantasy;
+    font-size: 18px;
+}
